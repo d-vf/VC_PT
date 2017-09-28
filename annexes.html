@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Venture capital in Portugal</title>
+  <meta name="description" content="Venture capital in Portugal. An empirical and contextualised analysis">
+  <meta name="generator" content="bookdown 0.5 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Venture capital in Portugal" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Venture capital in Portugal. An empirical and contextualised analysis" />
+  <meta name="github-repo" content="github.com/d-vf" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Venture capital in Portugal" />
+  
+  <meta name="twitter:description" content="Venture capital in Portugal. An empirical and contextualised analysis" />
+  
+
+<meta name="author" content="Diana Vieira Fernandes">
+
+
+<meta name="date" content="2017-09-28">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="conclusion.html">
+<link rel="next" href="data-sources-and-treatment.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets-0.9/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.7.0/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+<link href="libs/plotlyjs-1.27.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotlyjs-1.27.1/plotly-latest.min.js"></script>
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">VC Investments PT</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Abstract</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#acronyms"><i class="fa fa-check"></i><b>1.1</b> Acronyms</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="Scope.html"><a href="Scope.html"><i class="fa fa-check"></i><b>2</b> Scope, Limits and Methodology</a><ul>
+<li class="chapter" data-level="2.1" data-path="Scope.html"><a href="Scope.html#scope-and-limits"><i class="fa fa-check"></i><b>2.1</b> Scope and Limits</a></li>
+<li class="chapter" data-level="2.2" data-path="Scope.html"><a href="Scope.html#methodology"><i class="fa fa-check"></i><b>2.2</b> Methodology</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="portuguese-ecosystem.html"><a href="portuguese-ecosystem.html"><i class="fa fa-check"></i><b>3</b> Portuguese Ecosystem</a><ul>
+<li class="chapter" data-level="3.1" data-path="portuguese-ecosystem.html"><a href="portuguese-ecosystem.html#market-conditions-macro"><i class="fa fa-check"></i><b>3.1</b> Market Conditions (Macro)</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="portuguese-ecosystem.html"><a href="portuguese-ecosystem.html#the-portuguese-business-fabric"><i class="fa fa-check"></i><b>3.1.1</b> The Portuguese business fabric</a></li>
+<li class="chapter" data-level="3.1.2" data-path="portuguese-ecosystem.html"><a href="portuguese-ecosystem.html#balance-sheet-indicators"><i class="fa fa-check"></i><b>3.1.2</b> Balance Sheet indicators</a></li>
+<li class="chapter" data-level="3.1.3" data-path="portuguese-ecosystem.html"><a href="portuguese-ecosystem.html#agent-expectations"><i class="fa fa-check"></i><b>3.1.3</b> Agent Expectations</a></li>
+<li class="chapter" data-level="3.1.4" data-path="portuguese-ecosystem.html"><a href="portuguese-ecosystem.html#capital-markets"><i class="fa fa-check"></i><b>3.1.4</b> Capital Markets</a></li>
+<li class="chapter" data-level="3.1.5" data-path="portuguese-ecosystem.html"><a href="portuguese-ecosystem.html#taxes"><i class="fa fa-check"></i><b>3.1.5</b> Taxes</a></li>
+<li class="chapter" data-level="3.1.6" data-path="portuguese-ecosystem.html"><a href="portuguese-ecosystem.html#corporate-governance-and-investor-protection"><i class="fa fa-check"></i><b>3.1.6</b> Corporate governance and investor protection</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="portuguese-ecosystem.html"><a href="portuguese-ecosystem.html#social-risk-aversion-and-bankruptcy"><i class="fa fa-check"></i><b>3.2</b> Social (risk aversion and bankruptcy)</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="portuguese-ecosystem.html"><a href="portuguese-ecosystem.html#historical-perspective"><i class="fa fa-check"></i><b>3.2.1</b> Historical perspective</a></li>
+<li class="chapter" data-level="3.2.2" data-path="portuguese-ecosystem.html"><a href="portuguese-ecosystem.html#timeline-of-major-changes-throughout-history"><i class="fa fa-check"></i><b>3.2.2</b> Timeline of major changes throughout history</a></li>
+<li class="chapter" data-level="3.2.3" data-path="portuguese-ecosystem.html"><a href="portuguese-ecosystem.html#context-and-historical-background-of-the-creation-of-the-first-public-limited-companies"><i class="fa fa-check"></i><b>3.2.3</b> Context and historical background of the creation of the first public limited companies</a></li>
+<li class="chapter" data-level="3.2.4" data-path="portuguese-ecosystem.html"><a href="portuguese-ecosystem.html#trusts"><i class="fa fa-check"></i><b>3.2.4</b> Trusts</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="the-portuguese-venture-capital-market.html"><a href="the-portuguese-venture-capital-market.html"><i class="fa fa-check"></i><b>4</b> The Portuguese venture capital market</a></li>
+<li class="chapter" data-level="5" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html"><i class="fa fa-check"></i><b>5</b> Investment forms used in Portugal</a><ul>
+<li class="chapter" data-level="5.1" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#investiment"><i class="fa fa-check"></i><b>5.1</b> Investiment</a></li>
+<li class="chapter" data-level="5.2" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#data---options-and-justification-of-its-treatment"><i class="fa fa-check"></i><b>5.2</b> Data - Options and justification of its treatment</a></li>
+<li class="chapter" data-level="5.3" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#descriptive-statistics"><i class="fa fa-check"></i><b>5.3</b> Descriptive statistics</a><ul>
+<li class="chapter" data-level="5.3.1" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#incorporation-year"><i class="fa fa-check"></i><b>5.3.1</b> Incorporation Year</a></li>
+<li class="chapter" data-level="5.3.2" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#year-of-the-1st-intervention-by-vcs"><i class="fa fa-check"></i><b>5.3.2</b> Year of the 1st intervention by VC´s</a></li>
+<li class="chapter" data-level="5.3.3" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#maximum-reported-investment-accumulated"><i class="fa fa-check"></i><b>5.3.3</b> Maximum Reported Investment (Accumulated)</a></li>
+<li class="chapter" data-level="5.3.4" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#total-co-financed-through-finova"><i class="fa fa-check"></i><b>5.3.4</b> Total co-financed through FINOVA</a></li>
+<li class="chapter" data-level="5.3.5" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#n-of-investors-finova"><i class="fa fa-check"></i><b>5.3.5</b> Nº of Investors FINOVA</a></li>
+<li class="chapter" data-level="5.3.6" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#total-increase-in-share-capital-since-the-1st-intervention"><i class="fa fa-check"></i><b>5.3.6</b> Total increase in Share Capital since the 1st intervention</a></li>
+<li class="chapter" data-level="5.3.7" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#share-capital-in-the-end-of-intervention"><i class="fa fa-check"></i><b>5.3.7</b> Share Capital in the end of Intervention</a></li>
+<li class="chapter" data-level="5.3.8" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#total-increase-in-share-capital-by-investors"><i class="fa fa-check"></i><b>5.3.8</b> Total increase in Share Capital by Investors</a></li>
+<li class="chapter" data-level="5.3.9" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#other-financing"><i class="fa fa-check"></i><b>5.3.9</b> Other Financing</a></li>
+<li class="chapter" data-level="5.3.10" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#other-financingincrease-sc-by-investors"><i class="fa fa-check"></i><b>5.3.10</b> Other Financing/Increase SC by Investors</a></li>
+<li class="chapter" data-level="5.3.11" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#securities-issued-except-shares-n-obs."><i class="fa fa-check"></i><b>5.3.11</b> Securities issued except Shares (nº obs.)</a></li>
+<li class="chapter" data-level="5.3.12" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#securities-issued-except-shares-amount"><i class="fa fa-check"></i><b>5.3.12</b> Securities issued except Shares (Amount)</a></li>
+<li class="chapter" data-level="5.3.13" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#shares-classes"><i class="fa fa-check"></i><b>5.3.13</b> Shares Classes</a></li>
+<li class="chapter" data-level="5.3.14" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#percentage-of-special-class-shares"><i class="fa fa-check"></i><b>5.3.14</b> Percentage of special class shares</a></li>
+<li class="chapter" data-level="5.3.15" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#share-par-nominal-value"><i class="fa fa-check"></i><b>5.3.15</b> Share par (nominal) value</a></li>
+<li class="chapter" data-level="5.3.16" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#total-n-of-investors"><i class="fa fa-check"></i><b>5.3.16</b> Total nº of Investors</a></li>
+<li class="chapter" data-level="5.3.17" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#matrix-of-correlation-coefficients"><i class="fa fa-check"></i><b>5.3.17</b> Matrix of correlation coefficients</a></li>
+<li class="chapter" data-level="5.3.18" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#principal-component-analysis-pca-and-factor-analysis-fa"><i class="fa fa-check"></i><b>5.3.18</b> Principal Component Analysis (PCA) and Factor Analysis (FA)</a></li>
+<li class="chapter" data-level="5.3.19" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#investment-type-median"><i class="fa fa-check"></i><b>5.3.19</b> Investment type (median)</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#parties"><i class="fa fa-check"></i><b>5.4</b> Parties</a><ul>
+<li class="chapter" data-level="5.4.1" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#investors-characterisation"><i class="fa fa-check"></i><b>5.4.1</b> Investors characterisation</a></li>
+<li class="chapter" data-level="5.4.2" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#promoters-profile"><i class="fa fa-check"></i><b>5.4.2</b> Promoters Profile</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#ecosystem-structure"><i class="fa fa-check"></i><b>5.5</b> Ecosystem structure</a><ul>
+<li class="chapter" data-level="5.5.1" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#graph-theory"><i class="fa fa-check"></i><b>5.5.1</b> Graph Theory</a></li>
+<li class="chapter" data-level="5.5.2" data-path="investment-forms-used-in-portugal.html"><a href="investment-forms-used-in-portugal.html#characterisation-of-the-ecosystem-structure"><i class="fa fa-check"></i><b>5.5.2</b> Characterisation of the Ecosystem structure</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>6</b> Conclusion</a><ul>
+<li class="chapter" data-level="6.1" data-path="conclusion.html"><a href="conclusion.html#main-insights"><i class="fa fa-check"></i><b>6.1</b> Main insights</a></li>
+<li class="chapter" data-level="6.2" data-path="conclusion.html"><a href="conclusion.html#according-to-available-data-account-should-be-taken"><i class="fa fa-check"></i><b>6.2</b> According to available data, account should be taken:</a><ul>
+<li class="chapter" data-level="6.2.1" data-path="conclusion.html"><a href="conclusion.html#future-work"><i class="fa fa-check"></i><b>6.2.1</b> Future work</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="annexes.html"><a href="annexes.html"><i class="fa fa-check"></i><b>7</b> Annexes</a></li>
+<li class="chapter" data-level="8" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html"><i class="fa fa-check"></i><b>8</b> Data sources and Treatment</a><ul>
+<li class="chapter" data-level="8.1" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#venture-capital-cmvm-data"><i class="fa fa-check"></i><b>8.1</b> Venture Capital (CMVM data)</a></li>
+<li class="chapter" data-level="8.2" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#companies-financed-through-finova"><i class="fa fa-check"></i><b>8.2</b> Companies financed through FINOVA</a></li>
+<li class="chapter" data-level="8.3" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#mj---ministry-of-justice"><i class="fa fa-check"></i><b>8.3</b> MJ - Ministry of Justice</a></li>
+<li class="chapter" data-level="8.4" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#crunchbase-and-webpages"><i class="fa fa-check"></i><b>8.4</b> Crunchbase and Webpages</a></li>
+<li class="chapter" data-level="8.5" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#annual-reports-financial-statements"><i class="fa fa-check"></i><b>8.5</b> Annual Reports (financial statements)</a></li>
+<li class="chapter" data-level="8.6" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#european-venture-capital-association-evca"><i class="fa fa-check"></i><b>8.6</b> European Venture Capital Association (EVCA)</a></li>
+<li class="chapter" data-level="8.7" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#instituto-nacional-de-estatistica-ine"><i class="fa fa-check"></i><b>8.7</b> Instituto Nacional de Estatística (INE)</a></li>
+<li class="chapter" data-level="8.8" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#capital-markets-1"><i class="fa fa-check"></i><b>8.8</b> Capital Markets</a></li>
+<li class="chapter" data-level="8.9" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#data-fusion"><i class="fa fa-check"></i><b>8.9</b> Data Fusion</a></li>
+<li class="chapter" data-level="8.10" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#network-graph"><i class="fa fa-check"></i><b>8.10</b> Network graph</a></li>
+<li class="chapter" data-level="8.11" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#resolution-of-conflicts-between-sources"><i class="fa fa-check"></i><b>8.11</b> Resolution of conflicts between sources</a><ul>
+<li class="chapter" data-level="8.11.1" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#missing-values-w-mice-package-multivariable-imputation-w-chained-equations"><i class="fa fa-check"></i><b>8.11.1</b> Missing values w/ mice package (multivariable imputation w/ chained equations)</a></li>
+</ul></li>
+<li class="chapter" data-level="8.12" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#imputing-the-missing-data-using-rf-cart"><i class="fa fa-check"></i><b>8.12</b> Imputing the missing data using rf &amp; cart</a></li>
+<li class="chapter" data-level="8.13" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#inconsistency-of-sources-reporting-the-same-event"><i class="fa fa-check"></i><b>8.13</b> Inconsistency of sources reporting the same event</a><ul>
+<li class="chapter" data-level="8.13.1" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#tools"><i class="fa fa-check"></i><b>8.13.1</b> Tools</a></li>
+<li class="chapter" data-level="8.13.2" data-path="data-sources-and-treatment.html"><a href="data-sources-and-treatment.html#references"><i class="fa fa-check"></i><b>8.13.2</b> References</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="distributions.html"><a href="distributions.html"><i class="fa fa-check"></i><b>9</b> Distributions</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Venture capital in Portugal</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="annexes" class="section level1">
+<h1><span class="header-section-number">Chapter7</span> Annexes</h1>
+<p>Notes</p>
+<p>Portugal Ventures</p>
+<p>There were several inconsistencies between the Funds reports from 2012 to 2015 (latest available), particularly in assets under management.</p>
+<p>Taking into consideration the merger, extinction and spin-off of several funds, it is important to take into account that, according to data from Portugal Ventures, it manages “Funds under management: (approximately) € 400 million.” (Turismo de Portugal, FAI and some of the AICEP), but this is a management entity and has a double criterion in reports that, on the one hand, it reports (in particular to assess the capital gains of FAI Energia), but it is completely omitted and does not, in fact, include all the assets under management.</p>
+<p>TABLE</p>
+<table style="width:78%;">
+<colgroup>
+<col width="19%" />
+<col width="19%" />
+<col width="19%" />
+<col width="19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Incorporation</th>
+<th>Change</th>
+<th>Holding, stage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>FCR PORTUGAL VENTURES VALOR</td>
+<td>20-07-1994</td>
+<td>15-12-2014</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>FCR PORTUGAL VENTURES</td>
+<td>19-01-1993</td>
+<td>15-12-2014</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>FCR PORTUGAL VENTURES GLOBAL</td>
+<td>01-06-1999</td>
+<td>01-12-2013</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>FCR PORTUGAL VENTURES INTER-REGIONAL</td>
+<td>21-12-1999</td>
+<td>31-12-2014</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>FCR PORTUGAL VENTURES VALOR 2</td>
+<td>11-08-1994</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>FCR PORTUGAL VENTURES 2</td>
+<td>28-01-1993</td>
+<td>01-12-2013</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>FCR PORTUGAL VENTURES TIEC</td>
+<td>06-03-1998</td>
+<td>01-12-2013</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>FCR PORTUGAL VENTURES GLOBAL 2</td>
+<td>15-07-1999</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>FCR PORTUGAL VENTURES TURISMO</td>
+<td>25-08-1995</td>
+<td>TC (not reported)</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>FCR PORTUGAL VENTURES GRANDES PROJECTOS DE INVESTIMENTO</td>
+<td>09-08-2004</td>
+<td>AICEP</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>FCR PORTUGAL VENTURES - FIEP</td>
+<td>29-12-2004</td>
+<td>AICEP (not reported)</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>FCR PORTUGAL VENTURES FINICIA</td>
+<td>04-05-2007</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>FCR FAI PORTUGAL VENTURES ENERGIAS</td>
+<td>06-05-2009</td>
+<td>FAI (not reported)</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>FCR PORTUGAL VENTURES ACELERADOR DE COMERCIALIZAÇÃO DE TECNOLOGIAS</td>
+<td>24-08-2009</td>
+<td>31-12-2014</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>FCR PORTUGAL VENTURES FIAEA - FUNDO DE INVESTIMENTO DE APOIO AO EMPREENDEDORISMO DOS AÇORES</td>
+<td>14-01-2011</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>FCR PORTUGAL VENTURES BIOCANT</td>
+<td>28-12-2011</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>FCR PORTUGAL INTERNACIONALIZAÇÃO</td>
+<td>18-04-2011</td>
+<td>AICEP (reported)</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>FCR PORTUGAL VENTURES INDUSTRIAS CRIATIVAS 01-09-2011</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>FCR PORTUGAL VENTURES EARLY STAGE</td>
+<td>30-09-2011</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>FCR PORTUGAL VENTURES UNIVERSITAS</td>
+<td>28-12-2011</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>FCR PORTUGAL VENTURES ACELERADOR DE COMERCIALIZAÇÃO DE TECNOLOGIA II</td>
+<td>18-11-2011</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>FCR PORTUGAL GLOBAL VENTURES I</td>
+<td>17-06-2015</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>FCR DINAMIZAÇÃO TURISMO</td>
+<td>TC (not reported)</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>FCR TURISMO - INOVAÇÃO</td>
+<td>TC</td>
+<td>(not reported, there are operations through this funds)</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>FCR GLOBAL III</td>
+<td>AICEP (not reported)</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>FCR PORTUGAL VENTURES II</td>
+<td>AICEP</td>
+<td>(not reported) dissolution</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Incorporation</td>
+<td>(+1)</td>
+<td>Total in activity</td>
+</tr>
+</tbody>
+</table>
+<p>On the other hand, it does not report its position or affiliated entities to the Directorate-General for the Treasury and Finance [^59] (there are only the management reports of the date of their incorporation), where the changes are known, in particular as part of the restructuring operation in 2012, in which 2014 had more changes and from 2014 to 2015 there is an asset rotation that is not explained.</p>
+<p>[^59] : Report of the State Business Sector Entities, should be present and available at: <a href="http://www.dgtf.pt/centro-de-documentacao-e-legislacao?tabid=993" class="uri">http://www.dgtf.pt/centro-de-documentacao-e-legislacao?tabid=993</a></p>
+<p>The reconstruction (possible, taking into account the constantly changing amounts in portfolios and occurred changes due to mergers):</p>
+<table style="width:97%;">
+<colgroup>
+<col width="19%" />
+<col width="19%" />
+<col width="19%" />
+<col width="19%" />
+<col width="19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>2011</th>
+<th>2012</th>
+<th>2013</th>
+<th>2014</th>
+<th>2015</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1.Total Subscribed Net Investment</td>
+<td>310.8</td>
+<td>203.6</td>
+<td>198.5</td>
+<td>201.1</td>
+</tr>
+<tr class="even">
+<td>(Share capital entities - Shareholdings)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>1.Direct interests (holdings)</td>
+<td>344</td>
+<td>334</td>
+<td>295.5</td>
+<td>257.49</td>
+</tr>
+<tr class="even">
+<td>1.1 In companies</td>
+<td>17.6</td>
+<td>14.4</td>
+<td>4.6</td>
+<td>30.3*</td>
+</tr>
+<tr class="odd">
+<td>1.2 In Funds</td>
+<td>31.9</td>
+<td>22.2</td>
+<td>22.6</td>
+<td>23.7</td>
+</tr>
+<tr class="even">
+<td>2. Indirect interests</td>
+<td>308.8</td>
+<td>308.1</td>
+<td>275.71</td>
+<td>227.49</td>
+</tr>
+<tr class="odd">
+<td>2.2 Share Capital of entities (companies´holdings )</td>
+<td>247.4</td>
+<td>131.19</td>
+<td>74.15</td>
+<td>30.3*</td>
+</tr>
+<tr class="even">
+<td>2.2 Share Capital of entities under management (Funds)</td>
+<td>183.6</td>
+<td>128.9</td>
+<td>144.09</td>
+<td>153.33</td>
+</tr>
+<tr class="odd">
+<td>2.3 Holdings in investment units under external management</td>
+<td>1.3</td>
+<td>1.3</td>
+<td>2.8</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>It is not explained, potentially the n/a or registered potential loss</li>
+</ul>
+<p>There are variations in reporting, namely the same value has different values from one report to the other, even when they make the comparison with the previous year.</p>
+<p>It should also be noted that the investment units of these funds are in many cases reflected in the accounts of other entities (where they correctly put the nominal value and the valuations or impairments, such as the percentage held of the VC Fund). In the latter case, there are no changes in the value of the asset (in which many only put the acquisition price) as significant as reported by Portugal Ventures (some may differ by almost 50M €, i.e. more than 25% from one year to another).</p>
+<p>The Portugal Ventures, with visible and is reported in the financial reports, is an investment change process, which is divesting of Private Equity Units and to invest (foresees maintaining the trend) to focus on Venture Capital. In fact, as of 12/31/2015, of a portfolio of € 240, they consider their portfolio, broadly divided as follows:</p>
+<p>Number of companies</p>
+<table>
+<thead>
+<tr class="header">
+<th>Number of companies</th>
+<th>Portfolio</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2014</td>
+<td>2015</td>
+</tr>
+<tr class="even">
+<td>VC</td>
+<td>68</td>
+<td>89</td>
+</tr>
+<tr class="odd">
+<td>PE T&amp;LT</td>
+<td>19</td>
+<td>11</td>
+</tr>
+<tr class="even">
+<td>PE E&amp;M</td>
+<td>22</td>
+<td>17</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>Investment (acquisition cost)</th>
+<th>Asset valuation</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Seed</td>
+<td>58.8</td>
+<td>58.3</td>
+</tr>
+<tr class="even">
+<td>Startup</td>
+<td>77.1</td>
+<td>58.3</td>
+</tr>
+<tr class="odd">
+<td>Growth Capital</td>
+<td>42.7</td>
+<td>41.6</td>
+</tr>
+<tr class="even">
+<td>Outros</td>
+<td>36.6</td>
+<td>22.5</td>
+</tr>
+<tr class="odd">
+<td>N/A</td>
+<td>0.8</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Portugal Ventures Annual Report 2015, page 48, Fig. 25</p>
+<p>European Venture Capital Association (EVCA)</p>
+<p>Reports the data between 2007 and 2015, according to CMVM, but the method is different. It uses data provided by representative risk capital entities in each country. In the case of Portugal, the data are supplied by the Portuguese Association of Venture Capital and Development (APCRI).</p>
+<p>The APCRI sample is also very weak (compared to the CMVM); In which due to having such a small number of observations, any change in one of the variable has a great impact.</p>
+<p>In fact, comparing the data of the CMVM with those of the EVCA, the discrepancies are notorious, namely in two key parameters: number of venture capital firms and amount reported.</p>
+<p>Notices under SAFPRI:</p>
+<table style="width:78%;">
+<colgroup>
+<col width="19%" />
+<col width="19%" />
+<col width="19%" />
+<col width="19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aviso</th>
+<th>Prazo</th>
+<th>Convite específico</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nº 01/SAFPRI/2008</td>
+<td>De 02.12.2008 a 02.12.2008</td>
+<td>IAPMEI E TP para constituição do capital do FINOVA – Fundo de Apoio ao Financiamento à Inovação</td>
+<td>limite o valor de 107,940 M€, sendo 4,179 M€ afectos ao Turismo (TP) e 103,761 aos restantes sectores de actividade (IAPMEI).</td>
+</tr>
+<tr class="even">
+<td>Nº 03/SAFPRI/2008</td>
+<td>De 23.12.2008 a 23.12.2008</td>
+<td>IAPMEI destinado ao reforço do capital do FINOVA – Fundo de Apoio ao Financiamento à Inovação, com o objectivo de apoiar a criação de um fundo de fundos para dinamização da actividade de capital de risco em Portugal.</td>
+<td>limite o valor de 8,75 M€</td>
+</tr>
+<tr class="odd">
+<td>Nº 02/SAFPRI/2008</td>
+<td>De 23.12.2008 a 23.12.2008</td>
+<td>IAPMEI destinada ao reforço do capital do FINOVA – Fundo de Apoio ao Financiamento à Inovação, e com o objectivo de apoiar a criação de um fundo de capital de risco destinado ao apoio às PMEs do sector cinematográfico e audiovisual.</td>
+<td>limite o valor de 23,1 M€</td>
+</tr>
+<tr class="even">
+<td>N.º 05/SAFPRI/2009 - “Business Angels”</td>
+<td>De 31.08.2009 a 30.10.2009</td>
+<td>INVESTIDORES INFORMAIS EM CAPITAL DE RISCO (BUSINESS ANGELS)</td>
+<td>10 M€</td>
+</tr>
+<tr class="odd">
+<td>N.º 04/SAFPRI/2009 - Projectos Fase “Pré-Seed”</td>
+<td>De 31.08.2009 a 25.09.2009</td>
+<td>(FCR) cuja criação ou reforço terão co-financiamento do programa COMPETE</td>
+<td>COMPETE - 10,5 M€; Programa Operacional Regional de Lisboa – 2,4 M€.</td>
+</tr>
+<tr class="even">
+<td>N.º 03/SAFPRI/2009 - Projectos Fase “Early Stage”</td>
+<td>De 31.08.2009 a 25.09.2009</td>
+<td>(FCR) cuja criação ou reforço terão co-financiamento do programa COMPETE</td>
+<td>COMPETE - 21 M€;</td>
+</tr>
+<tr class="odd">
+<td>N.º 02/SAFPRI/2009 - Corporate Ventura Capital</td>
+<td>De 31.08.2009 a 25.09.2009</td>
+<td>(FCR) cuja criação ou reforço terão co-financiamento do programa COMPETE</td>
+<td>10 M€</td>
+</tr>
+<tr class="even">
+<td>N.º 01/SAFPRI/2009 - Inovação e Internacionalização de PME</td>
+<td>De 31.08.2009 a 25.09.2009</td>
+<td>(FCR) cuja criação ou reforço terão co-financiamento do programa COMPETE</td>
+<td>90 M€, dos quais 10 milhões de euros serão destinados a FCR orientados para as indústrias criativas</td>
+</tr>
+<tr class="odd">
+<td>Nº 01/SAFPR/2013 - LINHA DE FINANCIAMENTO A OPERAÇÕES DESENVOLVIDAS POR BUSINESS ANGELS</td>
+<td>De 13.09.2013 a 27.09.2013</td>
+<td>PME INVESTIMENTOS – SOCIEDADE DE INVESTIMENTO, SA</td>
+<td>linha de financiamento a operações desenvolvidas por Business Angels, 10 M€</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="conclusion.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-sources-and-treatment.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/06-Annex.Rmd",
+"text": "Edit"
+},
+"download": ["VC Investment.pdf", "VC Investment.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(script.src))
+      script.src  = script.src.replace(/^https?:/, '');
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
